@@ -1,0 +1,5 @@
+E:\MyPro\NOCSMS\NOCSMS.DataAccess\bin\Debug\NOCSMS.DataAccess.dll
+E:\MyPro\NOCSMS\NOCSMS.DataAccess\bin\Debug\NOCSMS.DataAccess.pdb
+E:\MyPro\NOCSMS\NOCSMS.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\MyPro\NOCSMS\NOCSMS.DataAccess\obj\Debug\NOCSMS.DataAccess.dll
+E:\MyPro\NOCSMS\NOCSMS.DataAccess\obj\Debug\NOCSMS.DataAccess.pdb

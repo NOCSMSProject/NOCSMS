@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOCSMS.Model", "NOCSMS.Model\NOCSMS.Model.csproj", "{FBC79E75-A732-4DDA-9560-DD5226E06C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOCSMS.DataAccess", "NOCSMS.DataAccess\NOCSMS.DataAccess.csproj", "{ECA9D883-0E82-4E27-8C71-D3D59D3BB48E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NOCSMS.Web", "NOCSMS.Web", "{57538D10-D181-4F72-B877-0D24649E33AD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{CFC7C996-297F-4807-A88B-C92A735B2C33}|NOCSMS.Common.dll;{ECA9D883-0E82-4E27-8C71-D3D59D3BB48E}|NOCSMS.DataAccess.dll;{FBC79E75-A732-4DDA-9560-DD5226E06C51}|NOCSMS.Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/NOCSMS.Web"
+		Debug.AspNetCompiler.PhysicalPath = "NOCSMS.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NOCSMS.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NOCSMS.Web"
+		Release.AspNetCompiler.PhysicalPath = "NOCSMS.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NOCSMS.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18207"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOCSMS.Common", "NOCSMS.Common\NOCSMS.Common.csproj", "{CFC7C996-297F-4807-A88B-C92A735B2C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOCSMS.Controls", "NOCSMS.Controls\NOCSMS.Controls.csproj", "{841C4ABA-83CE-4AA3-9370-E1DB3740C557}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBC79E75-A732-4DDA-9560-DD5226E06C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC79E75-A732-4DDA-9560-DD5226E06C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC79E75-A732-4DDA-9560-DD5226E06C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC79E75-A732-4DDA-9560-DD5226E06C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA9D883-0E82-4E27-8C71-D3D59D3BB48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA9D883-0E82-4E27-8C71-D3D59D3BB48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA9D883-0E82-4E27-8C71-D3D59D3BB48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA9D883-0E82-4E27-8C71-D3D59D3BB48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57538D10-D181-4F72-B877-0D24649E33AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57538D10-D181-4F72-B877-0D24649E33AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57538D10-D181-4F72-B877-0D24649E33AD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{57538D10-D181-4F72-B877-0D24649E33AD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CFC7C996-297F-4807-A88B-C92A735B2C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC7C996-297F-4807-A88B-C92A735B2C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC7C996-297F-4807-A88B-C92A735B2C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC7C996-297F-4807-A88B-C92A735B2C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841C4ABA-83CE-4AA3-9370-E1DB3740C557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841C4ABA-83CE-4AA3-9370-E1DB3740C557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841C4ABA-83CE-4AA3-9370-E1DB3740C557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841C4ABA-83CE-4AA3-9370-E1DB3740C557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+E:\MyPro\NOCSMS\NOCSMS.Model\bin\Debug\NOCSMS.Model.dll
+E:\MyPro\NOCSMS\NOCSMS.Model\bin\Debug\NOCSMS.Model.pdb
+E:\MyPro\NOCSMS\NOCSMS.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\MyPro\NOCSMS\NOCSMS.Model\obj\Debug\NOCSMS.Model.dll
+E:\MyPro\NOCSMS\NOCSMS.Model\obj\Debug\NOCSMS.Model.pdb
